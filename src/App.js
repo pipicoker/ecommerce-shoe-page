@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
 import Nav from './components/Nav'
 import Slider from './components/Slider';
 import About from './components/About';
-import { Carousel } from 'react-responsive-carousel';
 import Cart from './components/Cart';
 import avatar from "./images/image-avatar.png"
 
