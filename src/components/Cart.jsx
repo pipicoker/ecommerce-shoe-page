@@ -1,14 +1,13 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 import cart from "../images/icon-cart.svg"
 import { Menu, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
-import { data } from './Data'
 
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(' ')
+// }
 
 
 const Cart = (props) => {

@@ -63,7 +63,7 @@ const Navbar = () => {
           <img src={avatar} alt="" className='w-[36px] cursor-pointer'/>
         </div>
       </div>
-      <div className={nav ? 'pl-8 w-64 h-screen top-0 fixed pt-8 bg-red-200' : 'fixed left-[-100%]'}>
+      <div className={nav ? 'pl-8 w-64 h-screen top-0 fixed pt-8 bg-red-200 ' : 'fixed left-[-100%] '}>
         <img src={close} alt="" className='' onClick={handleNav}/>
 
         <ul className='mt-12  text-blac font-Fam cursor-pointer font-bold text-lg'>
